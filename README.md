@@ -1,6 +1,10 @@
 # Viaplay Example
 #### Viaplay example with Viaplay Content API and the Trailer Addict API 
 
+
+
+![alt text](http://venus.workupload.com/image/nFuoLu49 "Viaplay Screenshot")
+
 1. At your disposal you have the Viaplay Content API and the Trailer Addict API. 
 
 2. When visiting your video page you should fetch data from the Viaplay Content API, pick out the IMDB ID and request the trailer using that ID (minus the tt). 
