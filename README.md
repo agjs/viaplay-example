@@ -3,6 +3,12 @@
 
 
 
+Please write your application in Node.JS and send it back to the organizer as soon as possible. Feel free to use frameworks and plugins if you wish.
+
+##### Your Assignment
+Your mission is to create a video page that shows some basic data about the selected movie with a playable trailer. The page should look similar to the image below, with a header, video and footer sections.
+
+
 ![alt text](http://venus.workupload.com/image/nFuoLu49 "Viaplay Screenshot")
 
 1. At your disposal you have the Viaplay Content API and the Trailer Addict API. 
