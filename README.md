@@ -22,10 +22,10 @@ Please add a README.md with information about your solution.
 * How do we build and run it ? 
 * What tools did you use ? 
 * Why did you use them ? 
-* Did you intentionally leave stuff out? 
-* In that case, what and why?
+* Did you intentionally leave stuff out ?
+* In that case, what and why ?
 
-7. Don’t spend more than a couple of hours on this. Feel free to use any tools you like to show us your skills.
+* Don’t spend more than a couple of hours on this. Feel free to use any tools you like to show us your skills.
 
 ##### Links
 
