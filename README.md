@@ -51,6 +51,7 @@ Please add a README.md with information about your solution.
 #### Entire project explained in the video
 
 * Video: https://www.youtube.com/watch?v=JH-n2XxU8Wc&feature=youtu.be
+* Heroku: https://viaplay-example.herokuapp.com
 
 #### Run
 
