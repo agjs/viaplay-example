@@ -53,6 +53,7 @@ Please add a README.md with information about your solution.
 * Video: https://www.youtube.com/watch?v=JH-n2XxU8Wc&feature=youtu.be
 * Music in the video: https://www.youtube.com/watch?v=w2WSx2SvX98
 * Heroku: https://viaplay-example.herokuapp.com
+* Link to my online CV: http://agrbic.com/
 
 #### Run
 
