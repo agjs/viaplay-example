@@ -1,0 +1,38 @@
+.imdb-votes {
+    color: #666;
+    font-size: 11px;
+}
+
+.imdb-rating {
+    font-size: 20px;
+}
+
+.imdb-title {
+    a {
+        text-decoration: none;
+        color: $darkOfficial;
+        font-weight: bolder;
+    }
+}
+
+.imdb-duration {
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    padding: 0 10px 0 10px;
+}
+
+.imdb-player {
+    margin-top: 25px;
+}
+
+.imdb-player-invisible {
+    display: none;
+}
+
+.imdb-overlay-invisible {
+    display: none;
+}
+
+.imdb-description {
+    margin-top: 15px;
+}

@@ -41,3 +41,13 @@ Please add a README.md with information about your solution.
 
 * Example link for your app: http://localhost:8080/web-se/film/ghostbusters-1984
 * Viaplay Content API link: https://content.viaplay.se/web-se/film/ghostbusters-1984
+
+
+##### Note
+
+* In order to increase my chance of getting to Viaplay, please listen to the Titanic song and even better, watch the DiCaprio drown. That might soften your hearts a bit! 
+
+
+#### Entire project explained in the video
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/n2XxU8Wc/0.jpg)](http://www.youtube.com/watch?v=n2XxU8Wc)

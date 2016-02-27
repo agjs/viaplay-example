@@ -1,0 +1,175 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html {
+  position: relative;
+  min-height: 100%; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0rem;
+  outline: 0;
+  -webkit-focus-ring-color: none; }
+
+.imdb-icon {
+  width: 20px;
+  margin-right: 5px; }
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  background-color: #1E272E; }
+
+.footer-ul {
+  margin: 50px 0 50px 0; }
+  .footer-ul li {
+    list-style-type: none;
+    color: white;
+    margin-bottom: 10px;
+    color: #eaeaea;
+    font-size: 13px; }
+    .footer-ul li:nth-child(1) {
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: white;
+      font-weight: bold; }
+  .footer-ul .li-header-footer {
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: white; }
+
+.logo-footer-round {
+  float: left;
+  width: 80px;
+  margin-top: 50px; }
+
+.navbar {
+  background: #1E272E;
+  height: 60px; }
+
+.navbar-brand {
+  padding-top: 5px;
+  width: 240px; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #1E272E;
+  background-color: #FFFFFF;
+  height: 58px;
+  margin-top: 1px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 13px; }
+
+.logo {
+  width: 240px; }
+
+.container .text-muted {
+  margin: 20px 0; }
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-top: 10px; }
+
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display: block; }
+
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none; }
+
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none; }
+
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none; }
+
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none; }
+
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px; }
+
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #1E272E;
+  left: initial;
+  font-size: 14px; }
+
+.videos img {
+  width: 100%;
+  height: auto; }
+
+a.video {
+  float: left;
+  position: relative; }
+
+a.video span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../assets/images/common/play-button.png") no-repeat;
+  background-position: 50% 50%;
+  background-size: 300%; }
+
+@media screen and (max-width: 480px) {
+  a.video span {
+    background-size: 400%; } }
+.imdb-votes {
+  color: #666;
+  font-size: 11px; }
+
+.imdb-rating {
+  font-size: 20px; }
+
+.imdb-title a {
+  text-decoration: none;
+  color: #1E272E;
+  font-weight: bolder; }
+
+.imdb-duration {
+  border-right: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 0 10px 0 10px; }
+
+.imdb-player {
+  margin-top: 25px; }
+
+.imdb-player-invisible {
+  display: none; }
+
+.imdb-overlay-invisible {
+  display: none; }
+
+.imdb-description {
+  margin-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */

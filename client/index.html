@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="mtgx">
+	<head>
+		<base href="./">
+		<title>MTGX</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href="//fonts.googleapis.com/css?family=Roboto:400,100,200,300' rel='stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+	</head>
+	<body>
+		
+		<div ng-include="'app/components/common/navbar.ngview.html'"></div>
+		<div class="row main-content">
+			<div class="container">
+				<ui-view></ui-view>
+			</div>
+		</div>
+		<div ng-include="'app/components/common/footer.ngview.html'"></div>
+		
+		<script src="bundles/vendor.js"></script>
+		<script src="bundles/code.js"></script>
+	</body>
+</html>

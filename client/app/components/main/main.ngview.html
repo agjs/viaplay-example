@@ -1,0 +1,13 @@
+<div class="col-md-7 col-lg-7 col-xs-12">
+	
+	<span class="embed-responsive embed-responsive-16by9 imdb-player" ng-bind-html="traileraddict_player" ng-click="true"></span>
+</div>
+</div>
+<div class="col-md-5 col-lg-5 col-xs-12">
+<img src="">
+<h1 class="imdb-title"><a href="{{details.imdb.url}}" target="_blank">{{details.originalTitle}}</a></h1>
+<h4>{{details.production.year}} <span class="imdb-duration">{{details.duration.readable}}</span></h4><br>
+<span class="imdb-votes"><img class="imdb-icon" src="assets/images/common/imdb-icon.png"><b class="imdb-rating">{{details.imdb.rating}}</b> från {{details.imdb.votes}} användare</span>
+<p class="imdb-description">{{details.synopsis}}</p>
+<p><b>Regissör:</b> <span ng-repeat="director in details.people.directors">{{director}}</span></p>
+</div>
