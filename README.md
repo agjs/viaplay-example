@@ -50,4 +50,17 @@ Please add a README.md with information about your solution.
 
 #### Entire project explained in the video
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/n2XxU8Wc/0.jpg)](http://www.youtube.com/watch?v=n2XxU8Wc)
+* Video: https://www.youtube.com/watch?v=JH-n2XxU8Wc&feature=youtu.be
+
+#### Run
+
+* npm install
+* npm start
+
+Since I didn't setup any additional grunt tasks, if you want to bundle the SCSS:
+
+* --watch style.scss:assets/style.css
+
+To bundle frontend: 
+
+* grunt (it will run the default task)
